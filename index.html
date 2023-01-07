@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/computer.gif" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>AJ's Portfolio</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="./index.html" class="logo">AJ.</a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hello World!<br />I'am <span class="home-title-color">AJ</span><br />
+         <span id="jobTitle" >Software Engineer</span> 
+        </h2>
+
+        <a href='#' target="_blank"
+          class="button">Resume</a>
+
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/aj-l-05a326257/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/kuranjisu" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+        <a href="arvijohnlaco666@gmail.com" target="_blank" class="home-social-icon"><i
+            class="bx bx-mail-send"></i></a>    
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/computer.gif" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/profile.jpg" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Arvi John Laco</h2>
+          <p class="about-text">
+            An aspiring software engineer. Looking forward to applying
+            and enhancing my skills and knowledge as a developer.
+          </p>
+          <br />
+          
+          <p>
+            Drop a mail arvijohnlaco666@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== HOBBIES =====-->
+    <section class="hobbies section" id="hobbies">
+      <h2 class="section-title">What I do</h2>
+
+      <div class="hobbies-container">
+        <div class="hobbies-img">
+          <img src="assets/img/listen.jpg" alt="Listen" />
+          <p class="hobbies-title">Listen to Music</p>
+          <p class="hobbies-subtitle">
+            I love listening to genres like shoegaze, dreampop, post-hardcore, jazz, new wave and post-punk. I also play musical instruments like guitar and drums. <br />
+          </p>
+        </div>
+
+
+        <div class="hobbies-img">
+          <img src="assets/img/films.jpg" alt="Films" />
+          <p class="hobbies-title">Watch Films and Series</p>
+          <p class="hobbies-subtitle">
+            My favorite movie right now is Eternal Sunshine of the Spotless Mind. <br />
+          </p>
+        </div>
+
+        <div class="hobbies-img">
+          <img src="assets/img/games.jpg" alt="Games" />
+          <p class="hobbies-title">Play Online or Offline Games</p>
+          <p class="hobbies-subtitle">
+            Playing games keeps me sane. <br />
+          </p>
+        </div>
+        
+      </div>
+      </section>
+    <!---========Work Experience ======--->
+    <section class="work section" id="education">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="work-container bd-grid">
+    
+        <div class="work-data">
+          <div class="work-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="work-name">Associate Software Engineer</span> 
+            <p class="work-platform ">MDI Novare</p>
+            <p class="work-duration ">November 2022 - Present</p>
+
+          </div>
+        </div>
+        </div>
+      <div class="work-container bd-grid">
+    
+    <div class="work-data">
+      <div class="work-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="work-name">Front-end Developer - Internship</span>
+        <p class="work-platform ">Francollective Community</p>
+        <p class="work-duration ">Feb 2022 - May 2022</p>
+
+      </div>
+    </div>
+    </div>
+
+    
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+    
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">BS in Information Technology</span> 
+            <p class="education-platform ">University of Batangas - Lipa Campus</p>
+            <p class="education-duration ">August 2018 - July 2022</p>
+
+          </div>
+        </div>
+        </div>
+      <div class="education-container bd-grid">
+    
+    <div class="education-data">
+      <div class="education-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="education-name">STEM Strand</span>
+        <p class="education-platform ">LCC Silvercrest School</p>
+        <p class="education-duration ">August 2016 - July 2018</p>
+
+      </div>
+    </div>
+    </div>  
+
+  <!--===== FOOTER + CONTACT=====-->
+  
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Arvi John Laco</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/aj-l-05a326257/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          </i></a>
+      <a href="https://facebook.com/aruvi1999" target="_blank" class="footer-icon"><i class="bx bxl-facebook">
+          <br />
+          </i></a>
+      <a href="arvijohnlaco666@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          </i></a>
+      <a href="tel:+99999999999" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          </i></a>
+      <a href="https://github.com/kuranjisu" target="_blank" class="footer-icon"><i class="bx bxl-github">
+          <br />
+          </i></a>
+    </div>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
